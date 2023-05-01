@@ -3,7 +3,7 @@ compiled for dietpi all files from one run after compile and build amd64
 steps:
 
 1 apt update && apt upgrade
-2 apt install cmake build-essentials
+2 apt install cmake build-essential
 3 git clone --recurse-submodules https://github.com/macguyversmusic/gptj-chat
 4 mkdir build && cd build
 5 cmake ..
